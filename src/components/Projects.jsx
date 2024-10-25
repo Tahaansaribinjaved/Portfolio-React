@@ -1,20 +1,43 @@
-
 import { motion } from 'framer-motion';
 
 const projects = [
   {
     title: "Assignment Submission Portal",
-    description: "MERN Stack project for managing assignments and grading.",
+    description: (
+      <>
+        A full-stack web app designed to streamline assignment submission and grading for both students and instructors.
+        <ul className="mt-2 list-disc list-inside">
+          <li>Tech Stack: MERN (MongoDB, Express, React, Node.js)</li>
+          <li>Features: Real-time feedback, grading, and secure user authentication</li>
+        </ul>
+      </>
+    ),
     github: "https://github.com/Tahaansaribinjaved/Assignment-Submission-Portal"
   },
   {
     title: "30 JavaScript Projects",
-    description: "A collection of 30 JavaScript projects showcasing various functionalities.",
+    description: (
+      <>
+        A creative portfolio of JavaScript projects, each crafted to showcase various functionalities and web development skills.
+        <ul className="mt-2 list-disc list-inside">
+          <li>Tech Stack: Vanilla JavaScript, HTML, CSS</li>
+          <li>Features: Covers core web concepts like DOM manipulation, API integration, and animations</li>
+        </ul>
+      </>
+    ),
     github: "https://github.com/Tahaansaribinjaved/30-JS-Projects"
   },
   {
     title: "Expense Management System",
-    description: "A dynamic web application for managing personal expenses.",
+    description: (
+      <>
+        A user-friendly tool for tracking personal expenses with interactive charts and real-time updates.
+        <ul className="mt-2 list-disc list-inside">
+          <li>Tech Stack: HTML, CSS, JavaScript</li>
+          <li>Features: Expense tracking, filtering by category, and monthly reports</li>
+        </ul>
+      </>
+    ),
     github: "https://github.com/Tahaansaribinjaved/EXPENSE-MANAGMENT-SYSTEM"
   }
 ];
